@@ -1,0 +1,21 @@
+{
+  "name": "framework-agnostic-tutorial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tutorial: Framework-agnostic component design for painless migrations",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev:design-system": "pnpm --filter @tutorial/design-system dev",
+    "dev:gatsby": "pnpm --filter @tutorial/gatsby-app develop",
+    "dev:nextjs": "pnpm --filter @tutorial/nextjs-app dev",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
